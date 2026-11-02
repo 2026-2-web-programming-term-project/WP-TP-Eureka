@@ -14,9 +14,9 @@ Eureka는 서비스 주소를 발견하기 위한 구성 요소이며, 사용자
 
 ## 현재 상태
 
-2026-11-02 기준 README와 Apache-2.0 라이선스가 있습니다. Spring Boot 프로젝트·Eureka Server 설정·컨테이너·실행 명령은 아직 추가하지 않았습니다.
+2026-11-02 기준 Spring Boot 초기 프로젝트와 기본 테스트 클래스가 추가되어 있습니다. Eureka Server·Client 등록·조회, peer 구성·컨테이너·HA 연동은 검증 예정입니다.
 
-구현 시 다른 서비스와 호환되는 Spring Boot·Spring Cloud 버전을 선택하고 서비스 등록·조회와 인스턴스 종료 반영을 검증합니다.
+현재 초기 설정을 바탕으로 다른 서비스와의 Spring Boot·Spring Cloud 버전 정합성, 서비스 등록·조회와 인스턴스 종료 반영을 검증합니다.
 
 ## HA 설계 계획
 
@@ -25,6 +25,14 @@ Eureka를 유지하는 경우 단일 인스턴스 장애에 의존하지 않도�
 내부 로드밸런서 등 AWS 측 서비스 발견 방식과의 역할 분담도 확정합니다. 공용 진입점, 서비스 발견, 요청 분산의 책임을 구분하여 설계합니다.
 
 백엔드 제출 마감은 **2026-12-04 23:59 KST**입니다. 현재 운영 배포·HA 검증은 수행하지 않았습니다.
+
+## 담당 WBS
+
+[통합 WBS의 WP-TP-Eureka 작업](https://github.com/2026-2-web-programming-term-project/.github/blob/main/docs/WBS.md#wp-tp-eureka)에서 담당 범위를 관리합니다.
+
+EU-01–03: 기본 설정·Server/Client 등록·peer·장애와 종료 반영
+
+선행 관계·기간·완료 기준·상태는 통합 문서를 기준으로 갱신합니다. [공통 인프라](https://github.com/2026-2-web-programming-term-project/.github/blob/main/docs/WBS.md#infrastructure)와 [통합 검증](https://github.com/2026-2-web-programming-term-project/.github/blob/main/docs/WBS.md#integration)도 함께 확인합니다.
 
 ## 라이선스
 
