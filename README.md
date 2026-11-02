@@ -28,11 +28,11 @@ Eureka를 유지하는 경우 단일 인스턴스 장애에 의존하지 않도�
 
 ## 담당 WBS
 
-[통합 WBS의 WP-TP-Eureka 작업](https://github.com/2026-2-web-programming-term-project/.github/blob/main/docs/WBS.md#wp-tp-eureka)에서 담당 범위를 관리합니다.
+[GitHub Projects의 저장소별 WBS](https://github.com/orgs/2026-2-web-programming-term-project/projects/1/views/4)에서 `WP-TP-Eureka` 그룹을 확인합니다.
 
 EU-01–03: 기본 설정·Server/Client 등록·peer·장애와 종료 반영
 
-선행 관계·기간·완료 기준·상태는 통합 문서를 기준으로 갱신합니다. [공통 인프라](https://github.com/2026-2-web-programming-term-project/.github/blob/main/docs/WBS.md#infrastructure)와 [통합 검증](https://github.com/2026-2-web-programming-term-project/.github/blob/main/docs/WBS.md#integration)도 함께 확인합니다.
+선행 관계·기간·완료 기준·상태는 GitHub Projects의 작업 카드에서 갱신합니다. [공통 인프라](https://github.com/orgs/2026-2-web-programming-term-project/projects/1)와 [통합 검증](https://github.com/orgs/2026-2-web-programming-term-project/projects/1)도 함께 확인합니다.
 
 ## 라이선스
 
